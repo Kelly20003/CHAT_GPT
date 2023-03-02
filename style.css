@@ -1,0 +1,29 @@
+.GPT{ 
+    margin: 200px 5;
+    color: rgb(72, 164, 150);
+    
+    font-family:unset;
+    font-size: 200%;
+    right:10px;
+    padding: 50px;
+    text-align:justify;
+}
+.texto{ 
+    margin: 30px 0;
+    max-width: 500px;
+    text-align:justify;
+    color: white;
+    font-size: 60%;
+}
+
+body {
+    background-color:black;
+}
+.fundo{
+    height: 100px;
+}
+.butao{
+    color:rgb(63, 214, 214);
+    border-radius: 30px;
+  
+}

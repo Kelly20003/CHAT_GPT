@@ -1,0 +1,47 @@
+.GPT {
+    margin: 200px 5;
+    color: rgb(108, 198, 188);
+
+    font-family: unset;
+    font-size: 200%;
+    right: 10px;
+    padding: 50px;
+    text-align: justify;
+}
+
+body {
+    background-color: black;
+}
+
+.boneco {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    right: 50px;
+}
+
+.elemento {
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-left: 100px;
+    border: 10px solid rgb(240, 239, 239);
+}
+
+.caixa {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -1000px;
+    margin-top: -150px;
+}
+
+.caixa2 {}
+
+
+left:100%;
+top:50%;
+margin-left:1000px;
+margin-top:1500px;
+
+.buton {}
