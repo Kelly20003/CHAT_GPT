@@ -3,7 +3,7 @@
 
 <head>
     <title>Chat GPT</title>
-    <link href="chat.css" rel="stylesheet" />
+    <link href="styles/chat.css" rel="stylesheet" />
 
 </head>
 
@@ -12,23 +12,23 @@
     <div class="GPT">
         <h1>Chat GPT.</h1>
         <div class="boneco">
-            <img src="img2/boneco.png">
+            <img src="img/boneco.png">
+        </div>
 
-            <div class="caixa">
-                <textarea rows="20" cols="40" maxlength="500"></textarea>
-                <div class="caixa2"></div>
-                <textarea rows="20" cols="40" maxlength="500"></textarea>
+        <div class="chat-history">
+            <ul class="msgs" id="msg_list">
+            </ul>
+        </div>
 
-            <div class="buton">
-                <button>Enviar</button>
-                <BODY background="img2/fundo1.png">
-                </BODY>
-                
+
+        <div class="caixas">
+            <textarea rows="2" cols="50" maxlength="500" id="text_area"></textarea>
+            <button class="botao" id="enviar">Enviar</button>
+        </div>
+
+    </div>
 
 </body>
 
-
-
-
-
+<script type="text/javascript" src="scripts/chat.js"></script>
 </html>
