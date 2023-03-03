@@ -27,3 +27,11 @@ body {
     border-radius: 30px;
   
 }
+.decor{
+    position: absolute;
+    left: 60%;
+    top: 0%;
+    right: 50px;
+    margin-left: -300px;
+}
+}

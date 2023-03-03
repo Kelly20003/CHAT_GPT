@@ -6,7 +6,8 @@
     font-size: 200%;
     right: 10px;
     padding: 50px;
-    text-align: justify;
+    text-align:left;
+    margin-left: 90px;
 }
 
 body {
@@ -16,8 +17,9 @@ body {
 .boneco {
     position: absolute;
     left: 60%;
-    top: 20%;
+    top: 30%;
     right: 50px;
+    margin-left: -70px;
 }
 
 .elemento {
@@ -32,6 +34,7 @@ body {
     position: absolute;
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left: 120px;
 }
 
 .botao {
@@ -41,10 +44,12 @@ body {
 }
 
 .chat-history {
-    background: grey;
+    background: rgb(76, 73, 73);
     width: 700px;
     height: 300px;
     overflow: scroll;
     padding: 10px 20px;
+    margin-left: -20px;
 }
+
 
